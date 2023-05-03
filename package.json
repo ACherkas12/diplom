@@ -2,20 +2,37 @@
   "name": "diplom-app",
   "version": "0.1.0",
   "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
   "dependencies": {
+    "@expo/webpack-config": "^18.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "deprecated-react-native-prop-types": "^4.1.0",
+    "expo": "^48.0.11",
+    "expo-app-loading": "^2.1.1",
+    "expo-av": "~13.2.1",
+    "expo-status-bar": "^1.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-native": "0.71.7",
+    "react-native-app-intro": "^1.1.5",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-modalize": "^2.1.1",
+    "react-native-progress-circle": "^2.1.0",
+    "react-native-reanimated": "~2.14.4",
+    "react-native-web": "~0.18.10",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
